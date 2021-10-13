@@ -14,6 +14,8 @@ let array = [28, 43, -12, 30, 4, 0, -36]
 // }
 // console.log(`Largest Number is: ${big}`);
 // console.log(`Smallest Number is: ${small}`);
+
+//the expected awnser is up above, I did the bottom one after I spoke with my mentor, because I wanted to try and find a more elegant awnser.
 array.sort((a,b) => a-b)
 let small = array[0];
 let big = array[array.length-1];
